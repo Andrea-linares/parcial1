@@ -1,1 +1,100 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff0f5; 
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+h1 { 
+    color: #d87093;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.container {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(216, 112, 147, 0.2); 
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #ffdae9;
+}
+
+form { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 12px; 
+}
+
+label {
+    color: #c71585; 
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+input, select {
+    padding: 12px;
+    border: 2px solid #ffdae9; 
+    border-radius: 8px;
+    background-color: #fff9fb; 
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #ffb6c1; 
+}
+
+
+button {
+    background-color: #ffb6c1; 
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+button:hover {
+    background-color: #ffa0b4; 
+}
+
+button:active {
+    transform: scale(0.98); 
+}
+
+.resultado {
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 10px;
+    border-left: 6px solid #ffb6c1;
+    background: #fff5f7; 
+    color: #8b4356;
+}
+
+.resultado h3 {
+    margin-top: 0;
+    color: #d87093;
+    border-bottom: 1px solid #ffdae9;
+    padding-bottom: 5px;
+}
+
+.error { 
+    color: #ff1493; 
+    font-size: 0.75rem; 
+    margin-top: -8px;
+    font-style: italic;
+}
+
+
+#lista-productos li {
+    border-bottom: 1px solid #ffe4ed !important;
+    padding: 10px 0 !important;
+    color: #555;
+}
