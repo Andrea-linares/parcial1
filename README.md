@@ -17,7 +17,9 @@ renderizan dinámicamente en la pantalla utilizando propiedades como .innerHTML 
 ¿De qué forma validaron las entradas de datos?
 Las entradas se validaron mediante lógica condicional en JavaScript antes de procesar el 
 registro. Se implementaron las siguientes reglas:
+
 1- Campos obligatorios: Se verifica que el nombre y la categoría no estén vacíos mediante el método .trim().
+
 2- Validación numérica: Se asegura que el campo de cantidad contenga un valor superior a cero.
 En caso de error, se muestra una alerta o mensaje al usuario para evitar el ingreso de datos incorrectos.
 
